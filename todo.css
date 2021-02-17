@@ -1,0 +1,70 @@
+body{
+background: url("https://fsa.zobj.net/crop.php?r=Woda03kEiMjk45yPKMYGjuJEM3rlb95_Xt6y0OyvjwEtlhdaq7NwFQoOyBwfhbsqXZ76eBcFeh_M_VFC8RR_GUmpNGxJo7QBAVquUAe0OLE33ShI9Xdj2lgCM0NIMU_y9Sd62KGXxkIYgJiA");
+background-size: 1600px;
+background-repeat: no-repeat;
+}
+
+.Header{
+    display: grid;
+    justify-content: center;
+}
+.searchBoxFeatures{
+    display: grid;
+    padding-bottom: 45px;
+    justify-content:right;
+    margin-right: 45px;
+}
+
+#todoTextBox{
+    margin-left: 50px;
+    padding: 10px;
+    width: 70%;
+    border-style:groove;
+    border-color:darkblue;
+    border-width: 3px;
+    float: left;
+}
+
+#AddTodo{
+    padding: 0.7%;
+    margin-right: 0.7%;
+    width: 12%;
+    float: left;
+    background-color :rgb(113, 169, 177);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+#Add{
+    margin-top: 7%;
+    margin-left: 4%;
+    margin-right: 2%;
+    border: darkgreen solid;
+    background-color: rgb(204, 50, 127);
+}
+
+#close{
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    margin-bottom: 40px;
+    margin-right: 80px;
+    
+}
+
+#copy{
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    margin-bottom: 40px;
+    margin-right: 120px;
+}
+
+#edit{
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    margin-bottom: 40px;
+    margin-right: 190px;
+}
