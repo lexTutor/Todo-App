@@ -108,6 +108,7 @@ function Add(title, theDate)
            CreationDate:  date
         }
     );
+    
     if(shouldStore === true)
     {
        
